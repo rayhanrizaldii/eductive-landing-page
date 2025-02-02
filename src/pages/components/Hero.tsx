@@ -9,7 +9,7 @@ function Hero() {
         <h1 className="border border-indigo-600 rounded-xl px-7 py-2 mt-10 text-xl">
           Hi, Learner!
         </h1>
-        <h1 className="font-bold text-4xl xl:text-6xl max-w-xl my-6">
+        <h1 className="font-bold text-4xl xl:text-6xl max-w-3xl my-6">
           Transform Your Learning, Shape Your Future!
         </h1>
         <p className="text-slate-500 text-lg xl:text-xl max-w-xl">
@@ -30,8 +30,10 @@ function Hero() {
       <div className="hidden xl:block relative w-1/2 p-5">
         <img src={banner} alt="E-Learning SVG" className="w-[85%]" />
         <div className="absolute bottom-[7rem] right-10 bg-white shadow-lg rounded-3xl flex items-center px-8 py-5 gap-2">
-          <div className="bg-blue-500 text-white p-5 mr-2 rounded-full">
-            <Users size={48} />
+          <div className="bg-indigo-400/80 p-2 rounded-full">
+            <div className="bg-blue-500 text-white p-5 rounded-full">
+              <Users size={48} />
+            </div>
           </div>
           <div className="text-center">
             <p className="text-3xl font-bold">100+</p>

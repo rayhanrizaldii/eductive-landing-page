@@ -1,11 +1,13 @@
-import Hero from "./components/Hero"
+import Card from "./components/Card";
+import Hero from "./components/Hero";
 
 function Home() {
   return (
-    <div className="flex justify-center items-center">
-      <Hero/>
+    <div className="flex flex-col justify-center items-center">
+      <Hero />
+      <Card />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
