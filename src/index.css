@@ -68,3 +68,9 @@
     font-family: "Plus Jakarta Sans", sans-serif;
   }
 }
+
+@layer utilities{
+  .paused {
+    animation-play-state: paused;
+  }
+}
