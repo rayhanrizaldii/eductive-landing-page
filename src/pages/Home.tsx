@@ -1,7 +1,7 @@
-import Card from "./components/Card";
-import Features from "./components/Features";
-import Hero from "./components/Hero";
-import Support from "./components/Support";
+import Card from "./features/Card";
+import Features from "./features/Features";
+import Hero from "./features/Hero";
+import Support from "./features/Support";
 
 function Home() {
   return (
