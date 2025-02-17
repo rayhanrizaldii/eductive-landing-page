@@ -24,7 +24,7 @@ const Feature: React.FC<FeatureProps> = ({
         <div className="hidden xl:block relative w-1/2 p-5">
           <img
             src={image}
-            alt= "feature image"
+            alt= {title}
             className="w-full max-w-lg h-auto mx-auto"
           />
         </div>
